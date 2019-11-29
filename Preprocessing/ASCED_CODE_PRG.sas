@@ -1,4 +1,4 @@
-# This file is to import excel file (modified ASCED code) and shorten the size of the file
+* This file is to import excel file (modified ASCED code) and shorten the size of the file;
 
 
 libname AITSL base "\\vault2\tdrive\ATWD\AITSL\HEIMS";
