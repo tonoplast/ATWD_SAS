@@ -1,4 +1,4 @@
-
+* this file is used to make the file size smaller;
 
 /*   START OF NODE: Shortening_script_v3   */
 
@@ -93,11 +93,6 @@ run;
 proc contents data=&indata varnum;
 run;
 
-/* Adding Attributes (not doing this) */
-/*data outdata;*/
-/*attrib;*/
-/*set outdata;*/
-/*run;*/
 
 * Saving adjusted data into AITSL folder;
 data &savedata;
