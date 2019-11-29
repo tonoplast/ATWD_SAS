@@ -1,4 +1,4 @@
-* This file will do a basic cleaning for the data;
+** This file will do a basic cleaning of the data;
 
 libname AITSL base "\\vault2\tdrive\ATWD\AITSL\HEIMS";
 
