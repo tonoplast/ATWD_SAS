@@ -1,6 +1,6 @@
 * This file merges HEIMS Enrolment file with Course file, and adds / modifies variables for;
 * reporting purposes. Main take away from here is that it'll have variables that determines;
-* how data is cut (e.g. by Year, or by Course, or by Person);
+* how data is cut for dFOE (e.g. by Year, or by Course, or by Person);
 
 
 libname AITSL base "\\vault2\tdrive\ATWD\AITSL\HEIMS";
