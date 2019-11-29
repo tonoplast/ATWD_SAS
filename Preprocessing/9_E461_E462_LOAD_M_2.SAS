@@ -233,6 +233,7 @@ run;
 
 
 **** CHECKING FROM HERE ***************;
+* This will show the difference between _A and _M data, at 'YEAR' level;
 
 data CHECKING;
 set AITSL.LCE_E461E462_M;
