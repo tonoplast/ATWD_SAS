@@ -14,7 +14,7 @@ Future codes will be written in "R", and will be maintained throughout the proje
 
 If you have any question, please contact me at : 
 
-sungwook.chung@aitsl.edu.au
+sungwookaitsl@gmail.com
 
 Thank you, and have a good day.
 
