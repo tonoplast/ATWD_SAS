@@ -1,3 +1,11 @@
+* Author: Sung Wook Chung (AITSL), 2019
+* sungwookaitsl@gmail.com / sungwook.chung@aitsl.edu.au
+
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+
 * This file is for comparison later on (orignal HEIMS data vs Extracted data from Handbook), but it is not strictly necessary;
 * It uses HEIMS Load to derive detailed field of education (dFOE) by each year and;
 * summarise Mode of study by each year;
