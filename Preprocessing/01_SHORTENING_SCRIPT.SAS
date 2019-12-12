@@ -1,6 +1,13 @@
-* this file is used to make the file size smaller;
+* Author: Sung Wook Chung (AITSL), 2019
+* sungwookaitsl@gmail.com / sungwook.chung@aitsl.edu.au
 
-/*   START OF NODE: Shortening_script_v3   */
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+
+* this file is used to make the file size smaller (from 1200 characters to maximum number of characters);
+
 
 libname AITSL base "\\vault2\tdrive\ATWD\AITSL\HEIMS";
 
