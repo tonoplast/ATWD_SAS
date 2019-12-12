@@ -1,3 +1,11 @@
+* Author: Sung Wook Chung (AITSL), 2019
+* sungwookaitsl@gmail.com / sungwook.chung@aitsl.edu.au
+
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+
 * This file uses discipline information and course name to derive detailed field of education (dFOE);
 * that had not already been assigned. Similar to LOAD_A script, it will also summarise Mode of study;
 * It creates LOAD_M file to be used for analysis. This file is part 1;
