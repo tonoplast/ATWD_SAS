@@ -1,3 +1,11 @@
+* Author: Sung Wook Chung (AITSL), 2019
+* sungwookaitsl@gmail.com / sungwook.chung@aitsl.edu.au
+
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+
 * This file is used to merge QILT GOS data with Enrolment data;
 * We are using the latest GOS (if someone has taken more than 1);
 
