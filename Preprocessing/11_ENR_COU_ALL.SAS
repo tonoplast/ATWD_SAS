@@ -1,3 +1,11 @@
+* Author: Sung Wook Chung (AITSL), 2019
+* sungwookaitsl@gmail.com / sungwook.chung@aitsl.edu.au
+
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+
 * This file creates master data for Enrolment + Course.
 * More variables are added & simplified; 
 * Addition of more things on how data are cut -- Course or Year (Commencement, completions etc); 
