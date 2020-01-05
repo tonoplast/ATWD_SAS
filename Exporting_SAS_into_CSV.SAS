@@ -39,7 +39,7 @@ quit;
     run;
 
     *saving;
-    %let savename = &Select file..csv;
+    %let savename = &Select_file..csv;
     proc export data=this
     outfile=“&savedirasavename"
     dbms = csv;
