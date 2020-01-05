@@ -14,6 +14,10 @@ These codes are unlikely to go through further improvement as the remote access 
 Both are based in Australia.
 
 Future codes will be written in "R", and will be maintained throughout the project.
+For any data that were saved using SAS, it can be converted into CSV using the code in the main folder.
+The reason for the conversion is that a nunber of raw data in SAS format are too large (larger than the memory can handle; 5 GB - 91 GB).
+These converted files then can be loaded into R. 
+
 
 If you have any question, please contact me at : 
 
