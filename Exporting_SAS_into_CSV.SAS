@@ -25,7 +25,7 @@ libname newdir clear;
 
 * selecting all the files in the in-folder;
 proc sql noprint;
-select distinct memname into: Select_fi1es separated by ' '
+select distinct memname into: Select_files separated by ' '
 from dictionary.columns
 where LIBNAME = "AITSL";
 quit;
@@ -35,11 +35,11 @@ quit;
   %let Select_file = %scan(&$elect_files,&n);
   
     data This;
-    set AITSL.&Se1ect_file;
+    set AITSL.&Select_file;
     run;
 
     *saving;
-    %let savename = &Se1ect file..csv;
+    %let savename = &Select file..csv;
     proc export data=this
     outfile=“&savedirasavename"
     dbms = csv;
