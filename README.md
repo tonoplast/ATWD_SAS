@@ -5,6 +5,8 @@ specifically for the ATWD pipeline report.
 
 The anaysis was conducted via a secure remote access (AIHW), and therefore it is unlikely that anyone would be able to reproduce the analysis, unless they have the access to the unit record data. However, this repository was created for transparency reasons.
 
+Start with "Preprocessing" and move onto "Analysis" folder. Each code is numbered, so following in order will get the output required.
+
 ## Built with
 * [SAS Enterprise Guide 7.1](https://documentation.sas.com/?docsetId=whatsdiff&docsetTarget=n1af4n56n0r8gvn1kt0j8iagcc86.htm&docsetVersion=9.4&locale=en) - The code is based on.
 
