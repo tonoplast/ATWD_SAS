@@ -24,7 +24,7 @@ proc datasets library=WORK kill; run; quit;
 
 %let THIS_STATE = HOME_STATE; ** CHANGE THIS FOR STATE -- HOME_STATE UNI_STATE -- to look at state by residence or state by uni**;
 
-%let CLASS = CLASS_YR; %let YR = SS_YR; %let FTPT = FTPT_YR; %let MODE = MODE_YR;
+%let CLASS = CLASS_YR; %let YR = SS_YR; %let FTPT = FTPT_YR; %let MODE = MODE_YR; * Summarising at YEAR level;
 
 %let file = START; * looking at commencement;
 
