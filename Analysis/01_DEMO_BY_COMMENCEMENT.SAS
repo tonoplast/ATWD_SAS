@@ -10,6 +10,7 @@
 * This is done at National level and each state level, and breaks down into different field of education (dFOE);
 * It will export summarised data into excel. Several standardising processes have been incorporated to make the output neater;
 
+* COMMENCEMENT data;
 
 libname AITSL base "\\vault2\tdrive\ATWD\AITSL\HEIMS";
 
