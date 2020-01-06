@@ -33,13 +33,9 @@ options dlcreatedir;
 %let savedir = \\vault2\tdrive\ATWD\AITSL\ATWD_OUTPUT\FINAL\DEMOGRAPHIC\;
 libname newdir "&savedir";
 
-* setting save directory;
-options dlcreatedir;
 %let savedir = &savedir\&file\;
 libname newdir "&savedir";
 
-* setting save directory;
-options dlcreatedir;
 %let savedir1 = &savedir\&THIS_STATE\;
 libname newdir "&savedir1";
 libname newdir clear;
