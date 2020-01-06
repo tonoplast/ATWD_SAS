@@ -29,16 +29,14 @@ proc datasets library=WORK kill; run; quit;
 
 %let file = START; * Commencement;
 
-* check this later;
+* setting save directory;
 options dlcreatedir;
 %let savedir = \\vault2\tdrive\ATWD\AITSL\ATWD_OUTPUT\FINAL\DEMOGRAPHIC\;
 libname newdir "&savedir";
 
-* check this later;
-options dlcreatedir;
 %let savedir = &savedir\&file\;
 libname newdir "&savedir";
-
+libname newdir clear;
 
 *loading data;
 DATA COMBINE_FINAL(KEEP= HOME_STATE UNI_STATE G_LEVEL &CLASS &YR COUNT AGE ATAR);
