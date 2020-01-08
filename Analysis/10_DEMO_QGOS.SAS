@@ -16,10 +16,6 @@ libname AITSL base "\\vault2\tdrive\ATWD\AITSL\HEIMS";
 /* Clean workdir */
 proc datasets library=WORK kill; run; quit;
 
-
-%let startyear = 2005;
-%let thisyear = 2017;
-%let ext_year = 2017;
 %let d_type = M; * data type == A mean as HEIMS (As is), M means Mined;
 
 %let lvls = EC PRI SEC MIX EO;
