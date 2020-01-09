@@ -81,6 +81,9 @@ data e313_fix;
 set e313_fix;
 length padding $10;
 padding = '0000000000';
+
+if e306 = '4334' and substr(left(e313),1,3) = 'TCA' and length(left(e313)) = 10 then e313 = transwrd(e313,'TCA1','0TCA');
+
 substr(padding,11-length(e313)) = e313;
 drop e313;
 rename padding=e313;
@@ -93,9 +96,6 @@ if e306 = '4334' and substr(e313,1,4) = '2005' or
 e306 = '4334' and substr(e313,1,4) = '2006' or
 e306 = '4334' and substr(e313,1,4) = '2007' then
 substr(e313,1,4) = '0000';
-
-if e306 = '4334' and find(e313,'TCA')
-and e313 = 'TCA1112894' then e313 ='0TCA112894';
 
 * just getting rid of 0TCA as it causes a lot of trouble;
 if e306 = '4334' and find(e313,'0TCA') then substr(e313,1,4) = '0000';
