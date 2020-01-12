@@ -1,6 +1,6 @@
-# SAS codes used for ATWD pipeline report (2017)
+# SAS codes used for ATWD pipeline report (2019)
 
-This repository is for SAS codes that were used to preprocess and analyse the Australian Teacher Workforce Data for 2017, 
+This repository is for SAS codes that were used to preprocess and analyse the Australian Teacher Workforce Data for 2017 records, 
 specifically for the ATWD pipeline report.
 
 The anaysis was conducted via a secure remote access (AIHW), and therefore it is unlikely that anyone would be able to reproduce the analysis, unless they have the access to the unit record data. However, this repository was created for transparency reasons.
