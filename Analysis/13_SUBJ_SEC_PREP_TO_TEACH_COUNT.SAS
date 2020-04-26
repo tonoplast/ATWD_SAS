@@ -100,8 +100,8 @@ array A &VARS_PEDA; array B &VARS_CONT; array C &CAN_TEACH;
 do over A;
 * if either content or pedagogy is 1 or more, but not both are more than 4 and 2 respectively;
 /*if G_LEVEL = 'UG' and (1<= A or 1<= B) and not (2<= A and 4<= B) then C = 1;*/
-if G_LEVEL = 'UG' and A = 1 then C = 1; * if just 1 Peda for UG;
-if G_LEVEL = 'PG' and A = 1 then C = 1; * if just 1 Peda for PG;
+if G_LEVEL = 'UG' and A >= 1 then C = 1; * if just 1 Peda for UG;
+if G_LEVEL = 'PG' and A >= 1 then C = 1; * if just 1 Peda for PG;
 end;
 run;
 
